@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+* {
+    font-family: "Alkatra";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: white;
+
+}
+section,footer{
+    margin: 1rem;
+    scroll-margin-top: 9rem;
+}
+nav{
+    background-image: url("images/pexels-pixabay-301614.jpg");
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+
+   
+}
+
+nav a{
+    background-color: lightgreen;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: black;
+    padding: .5rem;
+}
+
+.images{
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+
+}
+.picture1{
+    background-image: url(./images/pexels-casia-charlie-2451040.jpg);
+    width: 300px;
+    height: 300px;
+}
+.two{
+    background-color: #ffe4c4;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1,h3, p{
+    text-align: center;
+}
+section,footer{
+    margin: 1rem;
+}
+.picture3 {
+    background-image: url(./images/pexels-ryutaro-tsukata-5745869.jpg);
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem auto;
+}
+.galerie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.picture4klein{
+    background-image: url(./images/ricardo.jpg);
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+    
+}
+.picture4gross{
+    background-image: url(./images/pexels-satoshi-hirayama-2070033.jpg);
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+}
+footer{
+    background-color: #ffe4c4;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+ @media only screen and (min-width: 650px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav a {
+        width: 20%;
+    }
+    body{
+        background-color: #9d9c9b;
+    }
+    .three{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .three p{
+        width: 30%;
+        text-align: justify;
+    }
+    .galerie{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+} 
+
+@media only screen and (min-width: 1100px){
+
+
+}
