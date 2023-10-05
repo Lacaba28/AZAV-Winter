@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  border: 1px solid red;
+  background-color: #9cd2ae;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 200px;
+  font-size:24px;
+  color: black;
+}
+
+.navbar a{
+  background-color: #d67c2a;
+  border-radius: 6px;
+  font-size: 16px;
+  padding:  4px 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.heroImage {
+  background-image: url(https://plus.unsplash.com/premium_photo-1663852297267-827c73e7529e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-size: cover;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180px;
+}
+
+body{
+  border: 1px solid red;
+  background-color: #9cd2ae;
+  width: 350px;
+  margin: 0 auto;
+}
+.items{
+height: 272px;
+background-size: cover;
+background-position: center;
+display: flex;
+margin: 20px 0;
+border: 1px solid green;
+}
+
+.bruschetta{
+  background-image: url(https://images.unsplash.com/photo-1506280754576-f6fa8a873550?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29taWRhJTIwYnJ1c2NoZXR0YXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60);
+}
+.carbonara{
+  background-image: url(https://media.istockphoto.com/id/943785646/de/foto/spaghetti-carbonara-mit-knoblauchbrot.jpg?s=1024x1024&w=is&k=20&c=Q_H8j5GIWUhFbqSnvSCxeE0QjJo9KeGVgRht2qdDHZQ=);
+}
+.caesar{
+  background-image: url(https://media.istockphoto.com/id/1410637426/de/foto/lachs-caesar-salat-mit-gegrilltem-fisch-croutons-und-kirschtomaten.jpg?s=1024x1024&w=is&k=20&c=vDwGnvPhY2vqtxurTGbwpUO6_xpdH-QiolRsKGtcC7c=);
+}
+.tiramisu{
+  background-image: url(https://media.istockphoto.com/id/1156110010/de/foto/klassischetiramisu-dessert-in-einem-glas-auf-holzhintergrund.jpg?s=1024x1024&w=is&k=20&c=Q3jL-aAYocJujGxtuYVMUNxlmCemuF4pKZy41IMrqoY=);
+}
+
+footer{
+  background-color: #203f21;
+  height: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer a{
+  color:aliceblue;
+  text-decoration:none;
+}
+
+.title{
+  background-color:orange ;
+  font-size: 20px;
+  margin-bottom: 30px;
+  width: 60%;
+  align-self: flex-end;
+  border-radius: 0px 6px 6px 0px;
+  text-decoration: none;
+  color:#ffffff;
+  padding: 8px;
+}
+
+@media screen and (min-width:768px) {
+  body{
+    width: 768px;
+   
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 39px;
+    gap: 16px;
+    margin: 36px 0;
+    padding: 4px;
+  }
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.items{
+  width: 360px;
+}
+.heroImage{
+  height: 243px;
+}
+footer{
+  height: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 14px;
+  margin-top: 40px;
+
+}
+
+}
+
+@media only screen and (min-width: 950px) {
+  body{
+    width: 950px;
+
+  }
+  .items{
+    width: 220px;
+
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer{
+    height:20px;
+  }
+  }
+
+  
